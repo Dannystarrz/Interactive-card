@@ -22,24 +22,21 @@ function App() {
     // let numbersArray= [];
     // numbersArray.push([numbers.target.value])
     // numberContainer.push(numbersArray);
-    let LengthTracker = numbers.target.value.length+1
-    if (numbersArray.length!==LengthTracker-1) {
-      numbersArray[numbersArray.length-1].push("x")
-    }
-    
-    console.log(numbersArray)
-    console.log(LengthTracker)
-    console.log(numbers.target.value.length)
-    // setCardNumber(<div>
-    //   <span style={{ marginRight: "10px" }}>{numberContainer.substring(0, 4)}</span>
+    // let LengthTracker = numbers.target.value.length+1
+    // if (numbersArray.length!==LengthTracker-1) {
+    //   numbersArray[numbersArray.length-1].push("x")
+    // }
 
-    //   <span style={{ marginRight: "10px" }}>{numberContainer.substring(4, 8)}</span>
+    setCardNumber(<div>
+      <span style={{ marginRight: "10px" }}>{[numbersArray[0], numbersArray[1], numbersArray[2], numbersArray[3]]}</span>
 
-    //   <span style={{ marginRight: "10px" }}>{numberContainer.substring(8, 12)}</span>
+      <span style={{ marginRight: "10px" }}>{[numbersArray[4], numbersArray[5], numbersArray[6], numbersArray[7]]}</span>
 
-    //   <span>{numberContainer.substring(12, 16)}</span>
-    // </div>
-    // )
+      <span style={{ marginRight: "10px" }}>{[numbersArray[8], numbersArray[9], numbersArray[10], numbersArray[11]]}</span>
+
+      <span>{[numbersArray[12], numbersArray[13], numbersArray[14], numbersArray[15]]}</span>
+    </div>
+    )
 
     // const handleValidate = ()=>{
 
